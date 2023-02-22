@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 
-int main(void)
+void main(void)
 {
 	times_table();
 	return (0);
