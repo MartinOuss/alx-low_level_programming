@@ -22,7 +22,7 @@ int _is_palindrome(char *s, int start, int end)
 *
 * Return: 1 if string is a palindrome, 0 otherwise
 */
-int is_palindrome(char *s);
+int is_palindrome(char *s)
 {
 	int len = strlen(s);
 		return (_is_palindrome(s, 0, len - 1));
